@@ -4,11 +4,11 @@ const app = express()
 app.use(express.json())
 
 app.get('/',(request, response) => {
-    return response.json({message: 'Servidor está rodando com sucesso!'})
+    return response.json({message: 'Testando Servidor'})
 })
 
 app.get('/atualizou',(request, response) => {
-    return response.json({message: 'Servidor está atualizando!!!'})
+    return response.json({message: 'Rota acessada com sucesso'})
 })
 
 
