@@ -7,7 +7,7 @@ app.get('/',(request, response) => {
     return response.json({message: 'Servidor está rodando com sucesso!'})
 })
 
-app.get('/',(request, response) => {
+app.get('/atualizou',(request, response) => {
     return response.json({message: 'Servidor está atualizando!!!'})
 })
 
