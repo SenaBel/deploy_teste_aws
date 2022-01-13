@@ -7,6 +7,11 @@ app.get('/',(request, response) => {
     return response.json({message: 'Servidor está rodando com sucesso!'})
 })
 
+app.get('/',(request, response) => {
+    return response.json({message: 'Servidor está atualizando!!!'})
+})
+
+
 app.post('/teste', (request, response) => {
     const {name, date} = request.body
     return response.json({name, date})
