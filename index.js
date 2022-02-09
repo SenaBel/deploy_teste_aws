@@ -4,7 +4,7 @@ const app = express()
 app.use(express.json())
 
 app.get('/',(request, response) => {
-    return response.json({message: 'Testando Servidor'})
+    return response.json({message: 'Testando Servidor Teste 09-02-2022'})
 })
 
 app.get('/atualizou',(request, response) => {
